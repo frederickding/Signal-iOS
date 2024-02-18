@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - fix-png-workflow
       - release/*
 
 # On PRs, "head_ref" is defined and is consistent across updates. On
